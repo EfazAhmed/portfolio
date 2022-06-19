@@ -1,0 +1,12 @@
+.navbar-brand {
+    position: relative;
+    font-size: 35px !important;
+    font-family: 'IBM Plex Sans';
+    
+}
+
+.nav-link {
+    position: relative;
+    font-size: 20px !important;
+    font-family: 'IBM Plex Sans';
+}
