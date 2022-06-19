@@ -10,3 +10,18 @@
     font-size: 20px !important;
     font-family: 'IBM Plex Sans';
 }
+
+@media screen and (max-width: 991px) {
+    .ms-5.nav-link {
+        margin: 0px !important;
+        margin-left: 0px !important;
+    }
+    .mx-5.nav-link {
+        margin: 0px !important;
+        margin-left: 0px !important;
+    }
+    .me-5.nav-link {
+        margin: 0px !important;
+        margin-left: 0px !important;
+    }
+}
