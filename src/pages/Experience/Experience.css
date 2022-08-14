@@ -1,0 +1,45 @@
+.ExperienceContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ExperienceImage {
+    width: 200px;
+}
+
+.ExperienceCompany {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.ExperienceRole {
+    font-size: 18px;
+    text-align: center;
+}
+
+.ExperienceDuration {
+    font-size: 15px;
+}
+
+.rec.rec-arrow-left, 
+.rec.rec-arrow-right {
+    background-color: white !important;
+    color: black !important;
+}
+
+.rec.rec-arrow-left:hover:not(:disabled), 
+.rec.rec-arrow-right:hover:not(:disabled) {
+    background-color: black !important;
+    color: white !important;
+    transform: scale(1.1);
+}
+
+.rec-dot {
+    background-color: white !important;
+}
+
+.rec-dot_active {
+    background-color: black !important;
+    box-shadow: 0 0 1px 2px black !important;
+}

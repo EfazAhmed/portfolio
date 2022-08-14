@@ -10,10 +10,10 @@ const Header = () => {
                 <Navbar.Toggle />
                 <Navbar.Collapse id="navbarSupportedContent">
                     <Nav>
-                        <Nav.Link className="ms-5">Home</Nav.Link>
-                        <Nav.Link className="mx-5">Experience</Nav.Link>
-                        <Nav.Link className="me-5">Skills</Nav.Link>
-                        <Nav.Link className="">Projects</Nav.Link>
+                        <Nav.Link className="ms-5" href="#home">Home</Nav.Link>
+                        <Nav.Link className="mx-5" href="#experience">Experience</Nav.Link>
+                        <Nav.Link className="me-5" href="#skills">Skills</Nav.Link>
+                        <Nav.Link className="" href="#projects">Projects</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
