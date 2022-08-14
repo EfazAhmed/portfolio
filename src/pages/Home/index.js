@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Header from '../components/Header'
-import './Home.css'
-import Picture from '../assets/profile_pic.jpg'
-
-
+import './Home.css';
+import Picture from '../../assets/profile_pic.jpg';
 
 const Home = () => {
 
@@ -127,7 +124,6 @@ const Home = () => {
     
     return (
         <>
-            <Header />
             <div className="content">
                 <img src={Picture}></img>
                 <div className="text-container">
@@ -140,8 +136,6 @@ const Home = () => {
         </>
     )
 }
-
-
 
 
 export default Home;
