@@ -1,11 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Carousel from "react-elastic-carousel";
 import Item from "./Item";
 import { experiences } from './fixtures';
 import './Experience.css'
 
 const Experience = () => {
-    const [currentIndex, setCurrentIndex] = useState(0);
     const breakPoints = [
         { width: 1, itemsToShow: 1 },
         { width: 550, itemsToShow: 2 },
@@ -14,18 +13,9 @@ const Experience = () => {
         { width: 1920, itemsToShow: 5 },
     ]
 
-    useEffect(() => {
-        console.log(currentIndex)
-    }, [currentIndex])
-
     return (
         <div id="experience">
-            <h1 style={{ 
-                textAlign: 'center',
-                fontWeight: 'bold', 
-                marginTop: 50 }}>
-                    Experience
-            </h1>
+            <h1 className="experience-title">Experience</h1>
             <Carousel
                 style={{ padding: 50, paddingTop: 100 }}
                 breakPoints={breakPoints}

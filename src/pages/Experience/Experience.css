@@ -1,7 +1,20 @@
+#experience {
+    margin-bottom: 200px;
+}
+
 .ExperienceContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.experience-title {
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    font-size: 55px;
+    padding: 0px;
+    margin: 100px 0px 50px 0px;
 }
 
 .ExperienceImage {
@@ -26,6 +39,7 @@
 .rec.rec-arrow-right {
     background-color: white !important;
     color: black !important;
+    z-index: 1;
 }
 
 .rec.rec-arrow-left:hover:not(:disabled), 
@@ -42,4 +56,15 @@
 .rec-dot_active {
     background-color: black !important;
     box-shadow: 0 0 1px 2px black !important;
+}
+
+@media screen and (max-width: 991px) {
+    .experience-title {
+        margin-top: 125px;
+        font-size: 45px;
+    }
+
+    #experience {
+        margin-bottom: 100px;
+    }
 }
