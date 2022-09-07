@@ -1,11 +1,11 @@
-import SeatGeek from '../../assets/seatgeek.png';
-import Google from  '../../assets/google.png';
-import IBM from '../../assets/ibm.svg';
-import CodePath from '../../assets/codepath.png';
-import MLH from '../../assets/mlh.jpeg';
-import CTP from '../../assets/ctp.png'; 
-import Bloomberg from '../../assets/bloomberg.jpg';
-import BNP from '../../assets/bnp.jpg';
+import SeatGeek from '../../assets/experience_images/seatgeek.png';
+import Google from  '../../assets/experience_images/google.png';
+import IBM from '../../assets/experience_images/ibm.svg';
+import CodePath from '../../assets/experience_images/codepath.png';
+import MLH from '../../assets/experience_images/mlh.jpeg';
+import CTP from '../../assets/experience_images/ctp.png'; 
+import Bloomberg from '../../assets/experience_images/bloomberg.jpg';
+import BNP from '../../assets/experience_images/bnp.jpg';
 
 export const experiences = [
     {
