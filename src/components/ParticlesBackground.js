@@ -23,7 +23,7 @@ const ParticlesBackground = () => {
               value: "FFFFFF",
             },
           },
-          fpsLimit: 120,
+          fpsLimit: 144,
           particles: {
             color: {
               value: "#000000",
@@ -32,7 +32,7 @@ const ParticlesBackground = () => {
               color: "#000000",
               distance: 150,
               enable: true,
-              opacity: 0.5,
+              opacity: 0.25,
               width: 1,
             },
             collisions: {
@@ -53,10 +53,10 @@ const ParticlesBackground = () => {
                 enable: true,
                 area: 800,
               },
-              value: 50,
+              value: 60,
             },
             opacity: {
-              value: 0.5,
+              value: 0.3,
             },
             shape: {
               type: "circle",
